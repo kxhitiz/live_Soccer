@@ -1,0 +1,22 @@
+{
+"name":		"Soccer Update",
+"description":		"Chrome app that provides live update of Soccer Events",
+"version":		"1.0",
+"app": {
+		
+		"launch":{
+				"local_path": "home.html"
+				}
+		
+		},
+"icons":	
+		{
+		"16":		"img/icon16.png",
+		"128" :		"img/icon128.png"
+		},
+"permissions": [
+			"unlimitedStorage",
+			"notifications",
+			"http://*/*"		
+			]
+}
