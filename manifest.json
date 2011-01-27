@@ -5,7 +5,7 @@
 "app": {
 		
 		"launch":{
-				"local_path": "home.html"
+				"local_path": "temp.html"
 				}
 		
 		},

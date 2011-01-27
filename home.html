@@ -27,8 +27,6 @@
     }
 
 </script>
-</head>
-
 <script>
 		var httpr;
 		
@@ -42,10 +40,10 @@
 			var year = currentTime.getFullYear();
 			httpr= new XMLHttpRequest();
 						
-			var url = "http://http://www.goal.com/en-us/live-scores/live-commentaries/date/" + year "/-" + month + "/-" + day + "/tab/all"
+			//var url = "http://http://www.goal.com/en-us/live-scores/live-commentaries/date/" + year "/-" + month + "/-" + day + "/tab/all"
 			
 			
-			httpr.open ('get', 'http://www.goal.com/en-us/live-scores/live-commentaries/tab/now',true);
+			httpr.open ('get','http://www.goal.com/en-us/live-scores/live-commentaries/tab/now',true);
 			httpr.onreadystatechange = ajax_fetch;
 			httpr.send(null);
 			
@@ -63,6 +61,4 @@
 
 <button onclick='notification()'>About this App</button>
 
-<div id="content">
-	<img src="img/loading.gif">
-</div>
+<div id="content"></div>
